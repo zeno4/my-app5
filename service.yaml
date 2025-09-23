@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service2
+  namespace: test-argocd
+  labels:
+    run: nginx-service2
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+  selector:
+    run: nginx-pod2
