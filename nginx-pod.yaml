@@ -11,3 +11,4 @@ spec:
       name: nginx-pod2
       resources: {}
   dnsPolicy: ClusterFirst
+  #verifica copia
